@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     colors: {
         'azul': '#1B233F',
-        'branco': '#FFFFFF'
+        'branco': '#FFFFFF',
+        'azul2': '#1E222F',
+        'preto': '#000000'
     }, 
     fontFamily: {
         aldo: ['Roboto', 'serif']

@@ -560,6 +560,14 @@ video {
   justify-content: center;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
 .bg-azul {
   --tw-bg-opacity: 1;
   background-color: rgb(27 35 63 / var(--tw-bg-opacity));
