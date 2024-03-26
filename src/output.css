@@ -548,8 +548,92 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-28 {
   height: 7rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-\[10vh\] {
+  height: 10vh;
+}
+
+.h-\[25\] {
+  height: 25;
+}
+
+.h-\[25vh\] {
+  height: 25vh;
+}
+
+.h-\[2vw\] {
+  height: 2vw;
+}
+
+.h-\[32\] {
+  height: 32;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[10vw\] {
+  width: 10vw;
+}
+
+.w-\[18vh\] {
+  width: 18vh;
+}
+
+.w-\[25vh\] {
+  width: 25vh;
+}
+
+.w-\[2vw\] {
+  width: 2vw;
+}
+
+.w-\[3vw\] {
+  width: 3vw;
+}
+
+.w-\[4vw\] {
+  width: 4vw;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-\[8vw_1fr_8vw\] {
+  grid-template-columns: 8vw 1fr 8vw;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -560,12 +644,37 @@ video {
   justify-content: center;
 }
 
-.border {
-  border-width: 1px;
+.justify-items-center {
+  justify-items: center;
 }
 
-.border-solid {
-  border-style: solid;
+.gap-32 {
+  gap: 8rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.space-x-11 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-s-xl {
+  border-start-start-radius: 0.75rem;
+  border-end-start-radius: 0.75rem;
 }
 
 .bg-azul {
@@ -573,16 +682,33 @@ video {
   background-color: rgb(27 35 63 / var(--tw-bg-opacity));
 }
 
+.bg-branco {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .font-aldo {
   font-family: Roboto, serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-branco {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-preto {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }

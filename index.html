@@ -4,52 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/input.css">
-    <link rel="stylesheet" href="./src/output.css" >
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 
 <body class="bg-azul h-full flex items-center justify-center flex-col">
-    <header class="w-100 h-28 bg-azul flex space-x-5">
+    <header class="text-branco flex bg-red-600 h-[10vh] w-full font-aldo">
+        <div class="flex items-center justify-center text-white bg-black w-[10vw]">
+            <img src="./src/img/AcmeFlix.png" alt="">
+        </div>
 
-        <div class=" text-branco flex space-x-11" style="gap: 50px; transform: translate(10%);">
-            <div class=" flex items-center justify-center hover:bg-black w-[10vw]">
-                Ínicio
-            </div>
-            <div class="flex items-center justify-center hover:bg-black w-[10vw]">
-                Filmes
-            </div>
-            <div class="flex items-center justify-center hover:bg-black w-[10vw]">
-                Séries
-            </div>
-            <div class="flex items-center justify-center hover:bg-black w-[10vw]">
-                Novidades
-            </div>
-            <div class="flex items-center justify-center hover:bg-black w-[10vw]">
-                Categorias
-            </div>
-            <div class="text-preto flex items-center justify-center">
-                <input class="w-6 h-9" type="text" placeholder="Busque um filme para seu entretenimento...">
-            </div>
+        <div class="flex items-center justify-center text-white hover:bg-black w-[4vw]">
+            Ínicio
+        </div>
+        <div class="flex items-center justify-center text-white hover:bg-black w-[4 vw]">
+            Novidades
+        </div>
+        <div class="flex items-center justify-center text-white hover:bg-black w-[4vw]">
+            Séries
+        </div>
+        <div class="flex items-center justify-center text-white hover:bg-black w-[3vw]">
+            Filmes
+        </div>
+        <div class="flex items-center justify-center">
+            <input class="w-[500px] text-black" type="text">
+        </div>
+        <div class="flex items-center justify-center text-white  w-[10vw]">
+
         </div>
     </header>
 
     <main class="flex flex-col justify-center p-8 w-full gap-32">
-        <h3 class="text-branco font-semibold">Adicionados Recentemente</h3>
-        <div class="grid grid-cols-[8vw_1fr_8vw] justify-items-center items-center">
-            <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-branco">
-                <img src="" alt="">
-            </button>
-            <div class="grid grid-flow-col gap-4 w-full">
-                <button class="w-[18vh] h-[25] bg-branco roundend-x1">
-                    <button class="w-[18vh] h-[25] bg-branco roundend-x1">
-                        <button class="w-[18vh] h-[25] bg-branco roundend-x1">
-                            <button class="w-[18vh] h-[25] bg-branco roundend-x1">
-                                <button class="w-[18vh] h-[25] bg-branco roundend-x1">
-                                    <button class="w-[18vh] h-[25] bg-branco roundend-x1">
-                                        <a href="#"></a>
-                                    </button>
+        <div class="flex flex-col gap-4 w-full">
+            <h3 class="text-branco">Adicionados Recentemente</h3>
+            <div class="grid grid-cols-[8vw_1fr_8vw] justify-items-center items-center">
+                <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-branco">
+                    <img src="./src/img/Vector (1).png" alt="">
+                </button>
+                <div class="grid grid-flow-col gap-4 w-full rounded-s-xl">
+                    <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                        <img src="./src/img/whiplash.png" alt="" class="w-[25vh] h-[32]">
+                    </button>
+                    </button><button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                        <img src="./src/img/Harry potter.png" alt="" class="w-[25vh] h-[32]">
+                    </button>
+                    <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                        <img src="./src/img/Django.png" alt="" class="w-[25vh] h-[32]">
+                    </button>
+                    <button class="w-[18vh] h-[25vh]rounded-s-xl p-0">
+                        <img src="./src/img/Mortal Kombat.png" alt="" class="w-[25vh] h-[32]">
+                    </button>
+                    <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                        <img src="./src/img/Pacific.png" alt="" class="w-[25vh] h-[32]">
+                    </button>
+                    <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                        <img src="./src/img/Jonh Wick.png" alt="" class="w-[25vh] h-[32]">
+                    </button>
+                </div>
             </div>
-        </div>
+
+            <div class="flex flex-col gap-4 w-full ">
+                <h3 class="text-branco">Drama</h3>
+                <div class="grid grid-cols-[8vw_1fr_8vw] justify-items-center items-center">
+                    <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-branco">
+                        <img src="./src/img/Vector (1).png" alt="">
+                    </button>
+                    <div class="grid grid-flow-col gap-4 w-full rounded-s-xl">
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Creed.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        </button><button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Fique rico.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh]rounded-s-xl p-0">
+                            <img src="./src/img/A origem.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Straight.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Rick.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Interestelar.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                    </div>
+            </div>
+
+            <div class="flex flex-col gap-4 w-full ">
+                <h3 class="text-branco">Drama</h3>
+                <div class="grid grid-cols-[8vw_1fr_8vw] justify-items-center items-center">
+                    <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-branco">
+                        <img src="./src/img/Vector (1).png" alt="">
+                    </button>
+                    <div class="grid grid-flow-col gap-4 w-full rounded-s-xl">
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Creed.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        </button><button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Fique rico.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh]rounded-s-xl p-0">
+                            <img src="./src/img/A origem.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Straight.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Rick.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                        <button class="w-[18vh] h-[25vh] rounded-s-xl p-0">
+                            <img src="./src/img/Interestelar.png" alt="" class="w-[25vh] h-[32]">
+                        </button>
+                    </div>
+            </div>
     </main>
 </body>
+
 </html>
